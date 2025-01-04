@@ -1,9 +1,9 @@
-people = {"Alice": 25, "Bob": 30, "Charlie": 35, "David": 40, "Eve": 45}
+people = {"Ahmed": 25, "Fatima": 30, "Youssef": 35, "Imane": 40, "Hassan": 45}
 
-people["Frank"] = 50
+people["Khadija"] = 50
 print("After adding:", people)
 
-people.pop("Charlie")
+people.pop("Youssef")
 print("After removal:", people)
 
 print("Names:", list(people.keys()))
